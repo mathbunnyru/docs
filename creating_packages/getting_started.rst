@@ -354,7 +354,7 @@ option, but packages can define and use any options they want.
 
 Options are defined in the package recipe, including their supported values, while other can be defaulted by the package
 recipe itself. A package for a library can well define that by default it will be a static library (a typical default).
-If not specified other. the package will be static.
+If not specified otherwise the package will be static.
 
 There are some exceptions to the above. For example, settings can be defined per-package using the command line:
 
